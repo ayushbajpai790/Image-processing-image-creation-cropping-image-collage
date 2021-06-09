@@ -9,7 +9,7 @@ horiPic = np.concatenate((pic1,pic2),axis=1)
 cv2.imshow('Horizontal', horiPic)
 cv2.waitKey()
 cv2.destroyAllWindows()
-# concate two images horizontally
+# concate two images vertically
 VertiPic = np.concatenate((pic1,pic2),axis=0)
 
 cv2.imshow('Vertical', VertiPic)
